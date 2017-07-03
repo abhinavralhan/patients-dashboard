@@ -1,1 +1,2 @@
-# patients-dashboard
+# Patients-dashboard
+> Simple app
