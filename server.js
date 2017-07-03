@@ -15,7 +15,7 @@ app.get('*', function(req,res){
 	res.render('index')
 }) 
 
-app.use('/',api)
+//app.use('/',api)
 app.use(app.router);
 api.initialize(app);
 
