@@ -206,7 +206,7 @@ let discreteAttributeSchema = new Schema({
 	}
 })
 
-atientSchema.virtual('discrete_attribute_id').get(function() {
+patientSchema.virtual('discrete_attribute_id').get(function() {
     return this._id;
 });
 
